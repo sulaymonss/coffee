@@ -1734,7 +1734,7 @@ a {
 
 @media (max-width: 750px) {
   .plan .container {
-    padding-left: 0;
+    padding-left: 70px;
   }
   .plan__title {
     font-size: 55px;
@@ -1800,13 +1800,16 @@ a {
 
 @media (max-width: 650px) {
   .plan .container {
-    padding-left: 58px;
+    padding-left: 0px;
   }
   .plan__title {
     font-size: 48px;
+    text-align: center;
   }
   .plan__desc {
     width: 80%;
+    margin: 0 auto;
+    text-align: center;
   }
   .process-2__list {
     -webkit-box-pack: center;

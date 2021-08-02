@@ -96,7 +96,7 @@
 @media(max-width:750px){
     .plan{
         .container{
-            padding-left: 0;
+            padding-left: 70px;
         }
         &__title{
             font-size: 55px;
@@ -163,13 +163,16 @@
 @media(max-width:650px){
     .plan{
         .container{
-            padding-left: 58px;
+            padding-left: 0px;
         }
         &__title{
             font-size: 48px;
+            text-align: center;
         }
         &__desc{
             width: 80%;
+            margin: 0 auto;
+            text-align: center;
         }
     }
     .process-2{
