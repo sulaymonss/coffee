@@ -1,0 +1,33 @@
+.quality{
+    margin-top: 256px;
+    .container{
+        background-color: $dark-grey;
+        border-radius: 10px;
+        padding: 0 85px;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    &__text{
+        width: 50%;
+    }
+    &__title{
+        font-family: $title;
+        color: $light;
+        font-weight: 900;
+        font-size: 40px;
+        line-height: 48px;
+        margin-bottom: 32px;
+        margin-top: 88px;
+    }
+    &__desc{
+        color: $light;
+    }
+    &__img{
+        width: 45%;
+        transform: translateY(-88px);
+        img{
+            border-radius: 8px;
+        }
+    }
+}

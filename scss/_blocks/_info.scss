@@ -1,0 +1,122 @@
+.info{
+    margin-top: 159px;
+    .container{
+        padding: 0 85px;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    &__left{
+        width: 30%;
+    }
+    &__right{
+        width: 66%;
+    }
+    &__left-content{
+        width: 255px;
+        font-family: $title;
+        font-size: 24px;
+        line-height: 32px;
+        margin-right: 29px;
+        font-weight: 900;
+        opacity: .4;
+        &:hover{
+            opacity: .7;
+        }
+        .clr-green{
+            color: #0E8784;
+        }
+    }
+    &__left span{
+        color: $grey;
+        margin-right: 29px;
+        cursor: default;
+    }
+    &__left-link{
+        color: $dark-grey;
+    }
+    &__line{
+        width: 255px;
+        height: 1px;
+        background-color: $grey;
+        opacity: 0.25;
+        margin: 24px 0;
+    }
+    &__left--active{
+        opacity: 1;
+    }
+    &__item{
+        margin-bottom: 88px;
+        &-content{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        &-title{
+            font-family: $title;
+            color: $grey;
+            font-weight: 900;
+            font-size: 40px;
+            line-height: 48px;
+            margin-right: 80px;
+        }
+        &-btn{
+            background-color: transparent;
+            border: none;
+            cursor: pointer;
+        }
+        &-list{
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            margin-top: 56px;
+            & li{
+                width: 30%;
+                padding: 32px 27px 0 27px;
+                background-color: $light-grey;
+                border-radius: 8px;
+                &:not(:last-child){
+                    margin-right: 20px;
+                }
+                &:hover{
+                    background-color: $pale;
+                    transition: .3s ease all;
+                }
+                & h3{
+                    font-family: $title;
+                    color: $dark-grey;
+                    font-weight: 900;
+                    font-size: 24px;
+                    line-height: 32px;
+                    margin-bottom: 24px;
+                }
+                & p{
+                    margin-bottom: 84px;
+                    color: $dark-grey;
+                }
+            }
+        }
+    }
+    &__order{
+        width: 100%;
+        background-color: #2C343E;
+        padding: 27px 64px;
+        &-desc{
+            text-transform: uppercase;
+            color: #FFFFFF;
+            opacity: 0.5;
+            margin-bottom: 8px;
+        }
+        &-text{
+            font-family: $title;
+            color: #fff;
+            font-weight: 900;
+            font-size: 24px;
+            line-height: 40px;
+            span{
+                color: $dark-cyan;
+            }
+        }
+    }
+}
+    

@@ -1,0 +1,80 @@
+#modal{
+    display: none;
+}
+
+.modal__check:checked ~ .modal__box{
+    @include flex;
+}
+
+.modal{
+    &__btn{
+        display: block;
+        width: 217px;
+        text-align: center;
+        margin-left: auto;
+        margin-top: 40px;
+        margin-bottom: 168px;
+        cursor: pointer;
+    }
+    .modal__box{
+        display: none;
+        position: fixed;
+        background: rgba(0, 0, 0, 0.5);
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+    }
+    &__content{
+        width: 520px;
+        height: auto;
+        &-header{
+            background-color: $dark-grey;
+            padding: 38px 0;
+            border-radius: 8px 8px 0 0;
+        }
+        &-main{
+            padding: 0 40px;
+            background-color: $light;
+            border-radius: 0 0 8px 8px;
+            span{
+                color: $dark-cyan;
+            }
+        }
+        &-text{
+            font-family: $title;
+            font-weight: 900;
+            font-size: 22px;
+            line-height: 35px;
+            color: $grey;
+            padding-top: 45px;
+            margin-bottom: 7px;
+        }
+        &-desc{
+            color: $dark-grey;
+            margin-bottom: 30px;
+        }
+        &-title{
+            font-family: $title;
+            color: #fff;
+            font-weight: 900;
+            font-size: 35px;
+            line-height: 40px;
+            padding-left: 40px;
+        }
+        &-footer{
+            span{
+                font-family: $title;
+                color: $dark-grey;
+                margin-right: 19px;
+                font-weight: 900;
+                font-size: 28px;
+                line-height: 36px;
+            }
+        }
+        &--btn{
+            padding: 15px 60px;
+            margin-bottom: 56px;
+        }
+    }
+}

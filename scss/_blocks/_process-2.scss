@@ -1,0 +1,57 @@
+.process-2{
+    margin-top: 177px;
+    .container{
+        background-color: $dark-grey;
+        padding-left: 86px;
+        padding-top: 105px;
+        border-radius: 10px;
+    }
+    &__line{
+        @include flex;
+        justify-content: space-between;
+        width: 790px;
+        height: 2px;
+        background-color: #FDD6BA;
+        margin-bottom: 82px;
+    }
+    &__circle{
+        display: inline-block;
+        width: 31px;
+        height: 31px;
+        background: $dark-grey;
+        border: 2px solid #0E8784;
+        border-radius: 50%;
+    }
+    &__list{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    &__item{
+        width: 285 * 100% / 1280;
+        margin-right: 95px;
+        margin-bottom: 20px;
+        &:last-child{
+            margin-right: 0;
+        }
+        span{
+            font-family: $title;
+            font-weight: 900;
+            font-size: 72px;
+            line-height: 72px;
+            color: $pale;
+        }
+        &-title{
+            font-family: $title;
+            font-weight: 900;
+            font-size: 32px;
+            line-height: 36px;
+            color: $light;
+            margin-top: 38px;
+            margin-bottom: 42px;
+        }
+        &-desc{
+            color: $light;
+            margin-bottom: 87px;
+        }
+    }
+}

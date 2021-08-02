@@ -1,0 +1,24 @@
+.about{
+    .container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        background-image: url(/img/about-bg.png);
+        background-position: center;
+        border-radius: 10px;
+        padding-left: 85px;
+        height: 450px;
+    }
+    &__title{
+        font-family: $title;
+        color: $light;
+        font-weight: 900;
+        font-size: 40px;
+        line-height: 48px;
+        margin-bottom: 24px;
+    }
+    &__text{
+        width: 445px;
+        color: $light;
+    }
+}

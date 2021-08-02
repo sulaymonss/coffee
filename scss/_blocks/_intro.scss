@@ -1,0 +1,28 @@
+.intro{
+    .container{
+        background-image: url(../img/intro-bg.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        border-radius: 10px;
+        padding-left: 86px;
+    }
+    &__title{
+        font-family: $title;
+        color: $light;
+        font-weight: 900;
+        font-size: 72px;
+        line-height: 72px;
+        margin-bottom: 32px;
+        padding-top: 115px; 
+    }
+    &__desc{
+        color: $light;
+        opacity: 0.8;
+        width: 445px;
+        margin-bottom: 56px;
+    }
+    &__link{
+        padding-bottom: 116px;
+    }
+}
+

@@ -1,0 +1,30 @@
+@import "./variables";
+@import "./general";
+@import "./_blocks/container";
+
+// all:
+@import "./_blocks/header";
+@import "./_blocks/footer";
+
+// home:
+@import "./_blocks/intro";
+@import "./_blocks/benefits";
+@import "./_blocks/collection";
+@import "./_blocks/process";
+
+// about us:
+@import "./_blocks/about";
+@import "./_blocks/commitment";
+@import "./_blocks/quality";
+@import "./_blocks/headquarters";
+
+// plan:
+@import "./_blocks/plan";
+@import "./_blocks/process-2";
+@import "./_blocks/info";
+@import "./_blocks/modal";
+
+// media queries:
+@import "./_blocks/responsive-1";
+@import "./_blocks/responsive-2";
+@import "./_blocks/responsive-3";

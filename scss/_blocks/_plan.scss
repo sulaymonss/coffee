@@ -1,0 +1,25 @@
+.plan{
+    .container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        background-image: url(/img/plan-bg.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        border-radius: 10px;
+        height: 450px;
+        padding-left: 86px;
+    }
+    &__title{
+        font-family: $title;
+        color: $light;
+        font-weight: 900;
+        font-size: 72px;
+        line-height: 72px;
+        margin-bottom: 32px;
+    }
+    &__desc{
+        width: 445px;
+        color: $light;
+    }
+}

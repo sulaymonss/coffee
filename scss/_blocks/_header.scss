@@ -1,0 +1,48 @@
+.header{
+    margin-bottom: 45px;
+    &__logo{
+        width: 236px;
+        height: 26px;
+    }
+    .nav{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;   
+        padding-top: 45px;
+        &__list{
+            display: flex;
+        }
+        &__link{
+            color: $grey;
+            text-transform: uppercase;
+            margin-left: 33px;
+            font-weight: bold;
+            font-size: 12px;
+            line-height: 15px;
+            letter-spacing: 0.923077px;
+            &:hover{
+                color: $dark-grey;
+                transition: .3s ease all;
+            }
+        }
+    }
+}
+
+#check{
+    display: none;
+}
+
+#sign-1{
+    display: none;
+    color: $dark-grey;
+    font-size: 22px;
+    cursor: pointer;
+}
+
+#sign-2{
+    display: none;
+    color: $dark-grey;
+    font-size: 22px;
+    cursor: pointer;
+}
+

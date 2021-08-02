@@ -1,0 +1,18 @@
+// fonts:
+$title: "Fraunces";
+$desc: "Barlow";
+
+// color:
+$dark-cyan: #0E8784;
+$dark-grey: #333D4B;
+$pale: #FDD6BA;
+$light: #FEFCF7;
+$grey: #83888F;
+$light-grey: #F4F1EB;
+
+// mixins:
+@mixin flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

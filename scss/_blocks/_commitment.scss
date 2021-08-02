@@ -1,0 +1,24 @@
+.commitment{
+    margin-top: 168px;
+    .container{
+        @include flex;
+        flex-wrap: wrap;
+    }
+    &__img{
+        width: 46%;
+    }
+    &__text{
+        width: 46%;
+    }
+    &__title{
+        font-family: $title;
+        color: $dark-grey;
+        font-weight: 900;
+        font-size: 40px;
+        line-height: 48px;
+        margin-bottom: 32px;
+    }
+    &__desc{
+        color: $dark-grey;
+    }
+}
