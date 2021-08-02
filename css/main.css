@@ -879,6 +879,12 @@ a {
   transition: .3s ease all;
 }
 
+.info__item-list li:active {
+  background-color: #0E8784;
+  -webkit-transition: .3s ease all;
+  transition: .3s ease all;
+}
+
 .info__item-list li h3 {
   font-family: "Fraunces";
   color: #333D4B;

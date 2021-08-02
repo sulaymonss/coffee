@@ -82,6 +82,10 @@
                     background-color: $pale;
                     transition: .3s ease all;
                 }
+                &:active{
+                    background-color: $dark-cyan;
+                    transition: .3s ease all;
+                }
                 & h3{
                     font-family: $title;
                     color: $dark-grey;
