@@ -47,8 +47,9 @@ a {
 }
 
 .container {
-  width: 1280px;
+  width: 1300px;
   margin: 0 auto;
+  padding: 0 10px;
 }
 
 .header {
@@ -484,8 +485,9 @@ a {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  background-image: url(/img/about-bg.png);
+  background-image: url(../img/about-bg.png);
   background-position: center;
+  background-repeat: no-repeat;
   border-radius: 10px;
   padding-left: 85px;
   height: 450px;
@@ -653,7 +655,7 @@ a {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  background-image: url(/img/plan-bg.png);
+  background-image: url(../img/plan-bg.png);
   background-repeat: no-repeat;
   background-position: center;
   border-radius: 10px;
@@ -1411,6 +1413,9 @@ a {
   }
   .process {
     margin-top: 70rem;
+  }
+  .benefits__item {
+    width: 100%;
   }
 }
 
